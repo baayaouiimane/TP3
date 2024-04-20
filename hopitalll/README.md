@@ -114,7 +114,7 @@ En actualisant la page et en cherchant dans la zone de saisie le nom : Imane
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/d5923d5e-143a-4f3e-9966-c27ec39812fa)
 Et on souhaite supprimer id =42 :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/dd14545c-f5b8-40a1-a811-e1931fb48563)
-On constate que la suppression est effectuée avec succès mais restant dans la même page .Par la suite on va changer delete par icone de poubelle. Donc on doit ajouter cette dépendance dans le fichier pom.xml:
+On constate que la suppression est effectuée avec succès mais tout en  restant dans la même page .Par la suite on va changer delete par icone de poubelle. Donc on doit ajouter cette dépendance dans le fichier pom.xml:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/135fe1fa-b888-4b12-808e-4be89cbcd369)
 Et aussi dans patient.html on va ajouter ceci :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/ef994adb-c086-45dd-998e-78a2884742e4)
