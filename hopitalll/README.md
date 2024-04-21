@@ -63,7 +63,7 @@ Si on regarde maintenant la base de donnée et on voit la table patient on aura 
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/c63fc230-1211-479f-8fe6-05bb55e098fa)
 On constate qu’à chaque fois on démarre on a une duplication car on écrase pas la base de donnée :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/347bcfaf-39d5-4b7a-9fd6-db127a7a3af8)
-Quand visite : localhost:8084/index on obtient le résultat ci-dessous :
+Quand on visite : localhost:8084/index on obtient le résultat ci-dessous :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/5f7fb127-dac2-4f09-9aa0-d8ad5736bcf7)
  Comme il  n’est pas pratique d’afficher tous les patients, on va passer pour faire la pagination, et donc on va apporter des modications à la classe PatientController :
  ![image](https://github.com/baayaouiimane/TP3/assets/167249908/ffc7533f-160b-4832-9c96-0cd834e6f9d1)
