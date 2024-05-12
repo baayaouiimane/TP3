@@ -175,6 +175,9 @@ En choisissant d éditer Imane Baayaoui ayant un id dont son numero est:6
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/5e19ffcc-d01e-46de-b59d-90d9389088c9)
 Et en cliquant sur le bouton save on est redirigé vers la page courante:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/864b78de-6d4b-435a-a4f4-ca54e0147227)
+Partie3:Sécurité avec Spring security
+Après ajout de spring starter security (on recoit un mdp dans la console):
+
 
 
 
