@@ -133,7 +133,7 @@ et pour utiliser cette page template dans patient on est censé d ajouter une pe
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/c96e8914-c833-441b-b7f4-59f9f3410840)
 Par la suite on obtiendra le résultat suivant:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/de3aada0-b7cf-48c5-aca4-4397d18b0d67)
-Et on va creer un formulaire formPatients:
+Et on va créer un formulaire formPatients:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/fe524f2f-221a-4567-8ae1-aec849658ef7)
 et ensuite faut apporter des modifications a PatientController:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/186b486f-8279-4127-9a5a-91f5573a0926)
@@ -148,7 +148,7 @@ Ensuite on va passer a la validation mais tout d abord faut ajouter la dépendan
 et ajouter des annotations de validation dans la classe Patient:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/f3c47b9e-3522-4a56-92a3-838de8793041)
 Ainsi qu il faut changer le score dans  HopitalllApplication:
-![image](https://github.com/baayaouiimane/TP3/assets/167249908/f1f01c91-e745-4e5d-aed2-fa2abf5bcbbd)
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/58ca238b-3e3c-4f90-aca9-04377d18096e)
 Et faire des changements au niveau du controlleur:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/2d4f3fd2-51f3-43c4-bf85-e0b82ea55441)
 Maintenant on va ajouter le bouton edit on va apporter une modification au fichier patient.html:
@@ -170,9 +170,13 @@ Ainsi qu au controlleur:
 et dans editPatient:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/d7a5827a-2b7d-493e-a021-ba6414a73699)
 Voici un exemple pour voir le débloquage de la situation:
-![image](https://github.com/baayaouiimane/TP3/assets/167249908/7b6a4521-e9f5-4022-a06f-50392fd74287)
-je souhaite editer imane qui a un id 6:
-![image](https://github.com/baayaouiimane/TP3/assets/167249908/f381c353-1078-4e96-ae6f-e8bacc3590da)
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/ba5dbbd5-4356-45f0-91b2-96ec6e7e95f3)
+En choisissant d éditer Imane Baayaoui ayant un id dont son numero est:6
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/5e19ffcc-d01e-46de-b59d-90d9389088c9)
+Et en cliquant sur le bouton save on est redirigé vers la page courante:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/864b78de-6d4b-435a-a4f4-ca54e0147227)
+
+
 
 
 
