@@ -1,5 +1,6 @@
 
 # Hopitallll
+Partie1:
 Vocation principale:
 Créer une application Web JEE basée sur Spring MVC, Thylemeaf et Spring Data JPA qui permet de gérer les patients. L'application doit permettre les fonctionnalités suivantes :
 •	Afficher les patients
@@ -122,6 +123,70 @@ Et aussi dans patient.html on va ajouter ceci :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/6355e9ab-77f8-4c83-92e0-f3514ddca2ca)
 En actualisant la page on obtient le résultat suivant :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/bd3a747a-6311-48d8-a911-b1a7f6cdda3d)
+Partie2:
+Tout d abord on commence par ajouter des dépendances dans le fichier pom.xml:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/8a34793b-09ab-4fc4-ab23-16219712a7a9)
+Par la suite  on est chargé a créer une page template: template1.html
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/8d323858-db54-427f-9052-c347e1a09bf6)
+et pour utiliser cette page template dans patient on est censé d ajouter une petite modification:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/8c3b8bb9-5e22-4d31-8302-7c608787a031)
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/c96e8914-c833-441b-b7f4-59f9f3410840)
+Par la suite on obtiendra le résultat suivant:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/de3aada0-b7cf-48c5-aca4-4397d18b0d67)
+Et on va creer un formulaire formPatients:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/fe524f2f-221a-4567-8ae1-aec849658ef7)
+et ensuite faut apporter des modifications a PatientController:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/186b486f-8279-4127-9a5a-91f5573a0926)
+En cliquant sur le bouton patient on a cette affichage:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/58f046b0-66ce-462a-a01e-7226d7c2f071)
+En selectionnant le bouton nouveau on est redirigé vers une autre page:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/05cc1e56-1167-4c63-8e33-1ca74e5411fc)
+Par la suite en cliquant sur le bouton save et en faisant une petite recherche du nouveau nom dans la barre:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/b9929e1d-456c-4d83-bfd0-fda0c99debf8)
+Ensuite on va passer a la validation mais tout d abord faut ajouter la dépendance dans le fichier pom.xml:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/0c08c31a-b0b8-4c6c-b9cd-63aced9c78e9)
+et ajouter des annotations de validation dans la classe Patient:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/f3c47b9e-3522-4a56-92a3-838de8793041)
+Ainsi qu il faut changer le score dans  HopitalllApplication:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/f1f01c91-e745-4e5d-aed2-fa2abf5bcbbd)
+Et faire des changements au niveau du controlleur:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/2d4f3fd2-51f3-43c4-bf85-e0b82ea55441)
+Maintenant on va ajouter le bouton edit on va apporter une modification au fichier patient.html:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/53f57780-cd06-4670-9bda-3b860ee05131)
+En exécutant on obtient le résultat suivant:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/2996e388-ca10-45c5-875d-1920dc195fe8)
+Par la suitee pourque le bouton edit fonctionne on est censé a apporter des modifications au controlleur:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/03c0cc04-3f58-4891-b154-b97682d30174)
+Et par la suite on va créer un formulaire pour editer le patient:editPatient
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/294759be-3b27-4392-9301-de2c790d48bc)
+et on aura ce résultat lorsqu on souhaite editer le patient Mohammed:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/8863fc83-bf85-4a4c-8e10-90b62f9b6272
+Voici l affichage qui reflete les modifications ajoutées:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/40dabcf8-5ce8-4fbb-bd7d-14b5b631db06)
+Maintenant il reste un petit probleme c est que lorsqu on cherche un patient et on souhaite l editer et en faisant par la suite  update on est redirigé vers index mais en perdant le keyword et la page courante donc pour le regler on apporte des modifications a patient.html :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/f65d9219-aecd-4f93-9911-ef14ec164c6a)
+Ainsi qu au controlleur:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/5719c9b5-a9a3-442b-9f47-2e9cd69bb1c6)
+et dans editPatient:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/d7a5827a-2b7d-493e-a021-ba6414a73699)
+Voici un exemple pour voir le débloquage de la situation:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/7b6a4521-e9f5-4022-a06f-50392fd74287)
+je souhaite editer imane qui a un id 6:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/f381c353-1078-4e96-ae6f-e8bacc3590da)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
