@@ -160,7 +160,7 @@ Par la suitee pourque le bouton edit fonctionne on est censé a apporter des mod
 Et par la suite on va créer un formulaire pour editer le patient:editPatient
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/294759be-3b27-4392-9301-de2c790d48bc)
 et on aura ce résultat lorsqu on souhaite editer le patient Mohammed:
-![image](https://github.com/baayaouiimane/TP3/assets/167249908/8863fc83-bf85-4a4c-8e10-90b62f9b6272
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/8863fc83-bf85-4a4c-8e10-90b62f9b6272)
 Voici l affichage qui reflete les modifications ajoutées:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/40dabcf8-5ce8-4fbb-bd7d-14b5b631db06)
 Maintenant il reste un petit probleme c est que lorsqu on cherche un patient et on souhaite l editer et en faisant par la suite  update on est redirigé vers index mais en perdant le keyword et la page courante donc pour le regler on apporte des modifications a patient.html :
