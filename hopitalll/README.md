@@ -176,7 +176,34 @@ En choisissant d éditer Imane Baayaoui ayant un id dont son numero est:6
 Et en cliquant sur le bouton save on est redirigé vers la page courante:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/864b78de-6d4b-435a-a4f4-ca54e0147227)
 Partie3:Sécurité avec Spring security
-Après ajout de spring starter security (on recoit un mdp dans la console):
+On commence par ajouter la dependance de securité au fichier pom.xml:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/da7e55bd-6cb0-4ba7-bca8-8da7744f2437)
+En faisant un run a l application on obtient le résultat suivant:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/3524b124-0665-418e-86f1-e1525faf553a)
+Et donc le seul moyen pour acceder a l application c est de taper le nom user  et le mot de passe geneerer par defaut:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/736846c4-185f-494e-a13f-4ed6f8488ffe)
+Et donc en cliquant sur le bouton sign in on est redirige vers la pade d accueil:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/7b397b6f-6f5c-436e-94f2-b90558045797)
+et pour personnaliser  la configuration de SpringSecurity on est cense a creer une classe SpringSecurity mais avant il faut creer un package nommé security:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/80561f29-cb46-4d21-aa87-34889e3d3e7c)
+Apres l execution on a:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/3c31285d-a2e7-45d9-a254-b260b0b9817f)
+Pour resoudre ce probleme on a apporter des modifications au controlleur et SpringSecurity
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/65ca824f-7981-4f58-9a2e-cb36eb1ba8eb)
+en cliquant sur le bouton sign in:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/849cb110-c727-4e1a-9cc3-bd27ccab4db7)
+Par la suite on souhaite afficher l utilisateur authentifie et ajouter une operation de logout:
+
+
+
+
+
+
+
+
+
+
+
 
 
 
