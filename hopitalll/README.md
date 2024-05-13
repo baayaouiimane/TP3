@@ -193,6 +193,90 @@ Pour resoudre ce probleme on a apporter des modifications au controlleur et Spri
 en cliquant sur le bouton sign in:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/849cb110-c727-4e1a-9cc3-bd27ccab4db7)
 Par la suite on souhaite afficher l utilisateur authentifie et ajouter une operation de logout:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/8e663476-ae50-41ea-8b38-51f5762a6103)
+Maintenant il reste la gestion des droits d acces,donc on est censé  a effectuer des modifications dans SecurityConfig des modifications   et dans le controlleur ausssi dans patient.html:
+Donc si on se login avec un userName Admin1 ainsi que le mot de passe , il peut effectuer la tache de la suppression et l edition du patient par contre s il est loginé avec user1  et le mot de passe il n a pas le droit d effectuer les taches ci dessus:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/6e95544a-bb02-4e24-ad8e-5234fcde9442)
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/9f234cff-78fb-461c-928a-dbcbdba27b26)
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/7cdebf70-a8af-41e0-bdfa-fe54191e55ee)
+s il clique sur l une des operations(delete,edit)on obtient le resultat suivant:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/3149ba3b-511c-4b79-bd9b-a5f3fb6a6d93)
+Maintenant on va afficher delete et edit que si je suis admin:
+On doit apporter des modications a patient.html:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/3d23341f-8651-493e-b2cc-de389bdcd1a7)
+Et dans template1.html
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/9ebee961-61dc-41f9-85ec-1402b05562e6)
+En faisant refresh a l application on obtient alors:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/9c1662d9-24d6-4734-a2bf-2c8d5ab1a0e7)
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/9253ef4a-00bc-430e-8fad-e3c8faf85f32)
+Après améliorations , si un user tente de faire des actions d'admin :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/26066f54-ed6a-470d-b023-930773b2a274)
+ Cette fois ci on va effectuer un Changement de la page Login et autoriser l'accès à bootstrap :
+ Appoertez des modifications a SecurityConfig:
+ ![image](https://github.com/baayaouiimane/TP3/assets/167249908/5d1f736f-53bc-4022-b108-4ba07904b3c0)
+ Et aussi dans SecurityControlleur:
+ ![image](https://github.com/baayaouiimane/TP3/assets/167249908/f3e849c9-c544-45f5-a7ac-71e820dc0714)
+Ensuite on est chargee a creer une page login:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/319a0530-4264-42f7-951d-9c87935363c6)
+JDBC Authentication:
+Copier les commandes de création de nouvelles tables à partir de ce fichier dans les dépendances :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/a5ddea80-f65b-447a-b013-3d8e1e076489)
+En consultant la base de donnée on trouve que:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/43e365c9-da55-4375-99ff-5bce7840bf50)
+En consultant la table users on aura:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/04a889c3-6e73-4653-af05-78dc48847425)
+En consultant la table authorities on aura:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/6488236b-19bb-48a8-a4ac-7459ab523b21)
+Test d authentification:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/20cbd0c5-0d97-4bc8-bb58-37c67f1de3eb)
+Par la suite on est redirigé vers l application:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/903ce802-6e6d-4732-a185-2d068bbbaa79)
+UserDetails Service :
+Creation d'une nouvelle classe AppUser  :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/6d66c14b-4588-4e98-9ce3-7442e6398b67)
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/bdad8af0-bbce-4b90-993d-f5502029752f)
+Creation d'une nouvelle classe AppRole :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/6106f9be-d34b-4a7b-808f-685b51a68304)
+Et on ajouter des modifications a HospitalllApplication.java:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/dd874d15-80ae-46bf-bcd6-c17207b0cd37)
+-Nouveaux Tables dans DB:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/62182888-ec48-4cec-8adc-bf04a2155a4c)
+-Table appUser :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/bd90e0e2-a5bb-4b97-ab33-81875aaf9efa)
+Table appRole:
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/681d3f1c-fd24-4a80-bf42-a6cd2a93879a)
+-Table appUserRoles :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/370ddd6e-d0a2-44d0-983e-a421526be063)
+-UserDetailsImpl :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/e88b9ab8-9d57-4175-8ad9-c0cb06e661ee)
+-Test :
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/71c0659d-ab19-41c4-9f94-da6e061caea5)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
