@@ -249,8 +249,13 @@ Table appRole:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/370ddd6e-d0a2-44d0-983e-a421526be063)
 -UserDetailsImpl :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/e88b9ab8-9d57-4175-8ad9-c0cb06e661ee)
--Test :
+-Test avec l utilisateur:user1
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/71c0659d-ab19-41c4-9f94-da6e061caea5)
+-Test avec l utilisateur:admin
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/c6687fd5-c0d0-495c-b976-310a591f347f)
+-Test avec l utilisateur:user2
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/310b6a82-0885-44d7-a8b2-c1aae4adcefc)
+
 
 
 
