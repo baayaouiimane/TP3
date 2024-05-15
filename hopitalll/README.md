@@ -237,7 +237,7 @@ Creation d'une nouvelle classe AppUser  :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/bdad8af0-bbce-4b90-993d-f5502029752f)
 Creation d'une nouvelle classe AppRole :
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/6106f9be-d34b-4a7b-808f-685b51a68304)
-Et on ajouter des modifications a HospitalllApplication.java:
+Et on ajouter des modifications a HopitalllApplication.java:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/dd874d15-80ae-46bf-bcd6-c17207b0cd37)
 -Nouveaux Tables dans DB:
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/62182888-ec48-4cec-8adc-bf04a2155a4c)
