@@ -254,7 +254,8 @@ Table appRole:
 -Test avec l utilisateur:admin
 ![image](https://github.com/baayaouiimane/TP3/assets/167249908/c6687fd5-c0d0-495c-b976-310a591f347f)
 -Test avec l utilisateur:user2
-![image](https://github.com/baayaouiimane/TP3/assets/167249908/310b6a82-0885-44d7-a8b2-c1aae4adcefc)
+![image](https://github.com/baayaouiimane/TP3/assets/167249908/9ab4f256-86c3-41d3-b737-7fccfdae41bd)
+
 
 
 
